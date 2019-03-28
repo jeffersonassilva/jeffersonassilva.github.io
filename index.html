@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <head>
+        <title>jeffersonassilva.github.io</title>
+        <style type="text/css">
+            html { height: 100%; }
+            body { height: 100%; display: block; margin: 0px; }
+            html, hmtl a { width:100%; font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            body { background:#2F3238; color:#999; font-weight:300; font-size:16px; font-family: 'Arial', sans-serif; line-height:28px; }
+            a { color:#03A9F4; text-decoration: none; cursor: pointer; -webkit-transition: color 0.2s linear 0s; -moz-transition: color 0.2s linear 0s; -o-transition: color 0.2s linear 0s; transition: color 0.2s linear 0s; }
+            a:hover, a:active, a:focus{ outline: 0; color:#1976D2; text-decoration:none; }
+            #salutation {margin-bottom: 50px;}
+            p { margin: 0 0 0px; text-align: center; }
+            p#name, p#description-one, p#description-two { font-size: 14px; line-height: 1.2em; margin: 10px 0px; }
+            input { width: 150px; border: 1px solid hsla(199, 98%, 48%, 0.39); -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; color: #FFFFFF; font-size: 16px; padding: 14px; margin-right: 10px; background: #26292E; }
+            .content { height: 90%; }
+            .content-div { position: absolute; left: 50%; top: 50%; margin: -150px 0 0 -585px; width: 1170px; z-index: 2; }
+            .main { width: 100%; line-height: 40px; margin: 40px 0px; text-align: center; text-shadow: none; }
+            .main div { font-size: 50px; color: #FFFFFF; letter-spacing: -3px; font-weight: 500; }
+            #salutation, #name, #description-one, #description-two { opacity: 0; -webkit-transition: opacity 3s ease-out; -moz-transition: opacity 3s ease-out; -o-transition: opacity 3s ease-out; transition: opacity 3s ease-out; }
+            footer { position: relative; width: 100%; height: auto; background: #26292E; text-align: center; }
+            footer p { color: #FFFFFF; font-size: 13px; margin-bottom: 0; padding: 20px 0; letter-spacing: 2px; }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="content-div">
+            	<div class="main">
+                    <div id="salutation">Hi, how are you?</div>
+                    <p id="name">My name is <a href="#">Jefferson A. S. da Silva</a>.</p>
+                    <p id="description-one">A developer, young christian, instrumentalist, in love for antiques,</p>
+                    <p id="description-two">woodworking, films, series and logical reasoning!!</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>jeffersonassilva.github.io</p>
+        </footer>
+        <script type="text/javascript">
+            window.onload = function(){
+                document.getElementById("salutation").style.opacity = "1";
+                setTimeout(function(){
+                    document.getElementById("name").style.opacity = "1";
+                    setTimeout(function(){
+                        document.getElementById("description-one").style.opacity = "1";
+                        setTimeout(function(){
+                            document.getElementById("description-two").style.opacity = "1";
+                        }, 1000);
+                    }, 1000);
+                }, 1000);
+            }
+        </script>
+    </body>
+</html>
