@@ -40,7 +40,7 @@ a:hover, a:active, a:focus {
     text-decoration: none;
 }
 
-#salutation {
+.main > div {
     margin-bottom: 50px;
 }
 
@@ -49,26 +49,18 @@ p {
     text-align: center;
 }
 
-p#name, p#description-one, p#description-two {
-    font-size: 14px;
+p.description {
+    font-size: 16px;
     line-height: 1.2em;
     margin: 10px 0px;
 }
 
-input {
-    width: 150px;
-    border: 1px solid hsla(199, 98%, 48%, 0.39);
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    color: #FFFFFF;
-    font-size: 16px;
-    padding: 14px;
-    margin-right: 10px;
-    background: #26292E;
+.fadeIn {
+    opacity: 0;
+    -webkit-transition: opacity 3s ease-out;
+    -moz-transition: opacity 3s ease-out;
+    -o-transition: opacity 3s ease-out;
+    transition: opacity 3s ease-out;
 }
 
 .content {
@@ -97,14 +89,6 @@ input {
     color: #FFFFFF;
     letter-spacing: -3px;
     font-weight: 500;
-}
-
-#salutation, #name, #description-one, #description-two {
-    opacity: 0;
-    -webkit-transition: opacity 3s ease-out;
-    -moz-transition: opacity 3s ease-out;
-    -o-transition: opacity 3s ease-out;
-    transition: opacity 3s ease-out;
 }
 
 footer {
