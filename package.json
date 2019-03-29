@@ -1,0 +1,10 @@
+{
+  "name": "jeffersonassilva.github.io",
+  "version": "0.0.1",
+  "author": "Jefferson A S Silva",
+  "homepage": "https://jeffersonassilva.github.io/",
+  "description": "An Ionic project",
+  "devDependencies": {
+    "yuicompressor": "^2.4.8"
+  }
+}
