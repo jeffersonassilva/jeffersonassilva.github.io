@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <head>
@@ -8,19 +8,48 @@
         <link rel="stylesheet" href="assets/css/app.min.css">
     </head>
     <body>
+    <div class="main">
+        <header>
+            <ul class="navigation">
+                <li onclick="changeLanguage('pt')"><img src="assets/img/flag-brasil.png" alt="Brasil Flag"> PT</li>
+                <li onclick="changeLanguage('en')"><img src="assets/img/flag-eua.png" alt="United States Flag"> EN</li>
+            </ul>
+        </header>
         <div class="content">
-            <div class="content-div">
-            	<div class="main">
-                    <div class="fadeIn">Hi, how are you?</div>
-                    <p class="fadeIn description">My name is <a href="#">Jefferson A. S. da Silva</a>.</p>
-                    <p class="fadeIn description">A developer, young christian, instrumentalist, in love for antiques,</p>
-                    <p class="fadeIn description">woodworking, films, series and logical reasoning!!</p>
-                </div>
+            <div class="text">
+                <h2>
+                    <span id="hello">Hello world!</span><br>
+                    <span id="iam">I am <span class="js">JS</span>ilva.</span>
+                </h2>
+                <p id="description">A system developer, christian, instrumentalist, in love for antiques, woodworking, films, series and logical reasoning!!</p>
+            </div>
+            <div class="illustration">
+                <img src="assets/img/geek-coding.png" alt="logo">
             </div>
         </div>
-        <footer>
-            <p>jeffersonassilva.github.io</p>
-        </footer>
-        <script src="assets/js/app.min.js"></script>
+        <div class="footer">
+            <ul class="sci">
+                <li>
+                    <a href="https://github.com/jeffersonassilva">
+                        <img src="assets/img/github.svg" class="s-icons" alt="GitHub">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jeffersonassilva">
+                        <img src="assets/img/linkedin.svg" class="s-icons" alt="LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/jeffersonassilva">
+                        <img src="assets/img/instagram.svg" class="s-icons" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+            <div class="ref-bible">
+                <p>John 3:16</p>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/app.min.js"></script>
     </body>
 </html>
