@@ -283,3 +283,29 @@ header {
         right: 0;
     }
 }
+
+@media (max-height: 600px) {
+    .content {
+        padding-top: 20px;
+    }
+
+    .content .text h2 {
+        font-size: 1.6em;
+    }
+
+    .content .text p {
+        font-size: .9em;
+    }
+
+    .content .illustration img {
+        width: 160px;
+    }
+
+    .s-icons {
+        width: 24px;
+    }
+
+    .ref-bible p {
+        font-size: .8em;
+    }
+}
